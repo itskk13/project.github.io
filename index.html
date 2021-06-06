@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="tailwind.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class='yellow h-screen w-full'>
+
+    <!-- Navbar -->
+
+  <nav class="flex-row  sm:flex justify-around">
+    <div class='flex justify-between'>
+      <img class='h-16 w-25 cursor-pointer' src='logo.png'>
+      <img class='h-12 w-12 sm:hidden' id='menuBtn' src='menu.png'>
+    </div>
+    
+    <ul class='flex-row  text-base sm:flex' id='menu'>
+     <li class="text-center text-base leading-7 font-medium sm:p-5 cursor-pointer"> <a href='#'>Loactions</a></li>
+      <li class="text-center text-base leading-7 font-medium sm:p-5 cursor-pointer"><a href='#'>services</a></li>
+      <li class="text-center text-base leading-7 font-medium sm:p-5 cursor-pointer"><a href='#'>About</a></li>
+    </ul>
+
+    <span class="flex p-5 hidden md:inline-flex cursor-pointer ">
+      <i class="fas fa-phone py-1 px-2"></i>
+      <p class='font-thin text-lg md:text-sm lg:text-lg'>602-362-8622</p>
+    </span>
+      <p class='mx-3 px-5 py-2 border-2 border-solid border-black text-xl bg-black text-white text-center sm:mt-4 text-center sm:bg-transparent sm:text-black cursor-pointer'>Get Started</p>
+  </nav>
+
+  <!-- Main -->
+
+  <div class='container mx-auto mt-16 sm:mt-16'>
+    <p class='text-lg font-bold text-center px-10 text-3xl  md:text-7xl 2xl:mx-36 '>SKYROCKET YOUR TRAFFIC, LEADS & SALES WITH SCIENCE BASED SEO.</p>
+    <div class='flex-row py-6 md:flex md:justify-center'>
+      <p class='mx-3 px-5 py-2 my-4 border-2 border-solid border-black text-xl bg-black text-white text-center cursor-pointer md:animate-pulse md:px-10 md:font-normal md:uppercase hover:bg-transparent hover:text-black hover:font-black'>Book A Discovery Call</p>
+      <span class='hidden md:block md:border-solid md:bg-black md:border-2 md:border-black'></span>
+      <p class='mx-3 px-5 py-2 my-4 border-2  border-solid border-black text-xl bg-black text-white text-center md:px-20 hover:bg-transparent hover:text-black hover:font-black md:animate-pulse cursor-pointer md:font-normal md:text-lg md:uppercase '>Client Stories</p>
+    </div>
+  </div>
+</div>
+  <script src="https://kit.fontawesome.com/23aee205e5.js" crossorigin="anonymous"></script>
+  <script src='script.js'></script>
+</body>
+</html>
